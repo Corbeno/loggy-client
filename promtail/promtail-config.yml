@@ -2,7 +2,7 @@ positions:
   filename: /tmp/positions.yaml
 
 clients:
-  - url: http://username:password@192.168.1.2:3101/loki/api/v1/push #TODO change
+  - url: http://username:password@192.168.1.2:3100/loki/api/v1/push #TODO change username, password, and IP
 
 scrape_configs:
 # local machine logs
